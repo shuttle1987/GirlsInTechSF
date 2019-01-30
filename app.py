@@ -15,3 +15,7 @@ def sujatha():
 def ed():
     return "I'm Ed"
 
+@app.route('/names/Vivian')
+def vivian():
+    return "I'm Vivian"
+    
