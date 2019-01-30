@@ -45,7 +45,7 @@ def rajasree():
     return "I'm Rajasree"
 
 @app.route('/names/Xoch')
-def ed():
+def xoch():
     return "Xoch"
   
 @app.route('/gitbranchexample')
@@ -56,3 +56,7 @@ def branch_example():
 @app.route('/names/Vivian')
 def vivian():
     return "I'm Vivian"
+
+@app.route('/names/Senay')
+def Senay():
+    return "I'm Senay. I am originally from Istanbul/Turkey. I live in SF and i like here a lot. I am learning git today. It is so much fun "
