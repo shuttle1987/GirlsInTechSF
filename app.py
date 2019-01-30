@@ -1,5 +1,5 @@
-
-"""This is a an example of a Flask app"""
+"""This is an example flask app
+designed to show some features of GitHub"""
 
 from flask import Flask
 app = Flask(__name__)
@@ -17,10 +17,22 @@ def mika():
 def sujatha():
     return "Sujatha is working on ToySharing project"
 
+@app.route('/names/Sujatha/')
+def sujatha():
+    return "Sujatha is working on ToySharing project"
+
+
 @app.route('/names/ed')
 def ed():
     return "I'm Ed"
-  
+@app.route('/names/yasmine')
+def yasmine():
+	return "I'm not ed. I'm Yasmine. :)" 
+
+@app.route('/names/Vivian')
+def vivian():
+    return "I'm Vivian"
+      
 @app.route('/names/annie')
 def annie():
     return "Annie"
@@ -34,14 +46,12 @@ def irene():
 def meghana():
     return "I'm Meghana"
 
-
-
 @app.route('/names/rajasree')
 def rajasree():
     return "I'm Rajasree"
 
 @app.route('/names/Xoch')
-def ed():
+def xoch():
     return "Xoch"
   
 @app.route('/gitbranchexample')
@@ -52,3 +62,8 @@ def branch_example():
 @app.route('/names/Vivian')
 def vivian():
     return "I'm Vivian"
+
+@app.route('/names/Senay')
+def Senay():
+    return "I'm Senay. I am originally from Istanbul/Turkey. I live in SF and i like here a lot. I am learning git today. It is so much fun "
+
