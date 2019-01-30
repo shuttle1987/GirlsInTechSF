@@ -1,3 +1,5 @@
+"""This is an example flask app
+designed to show some features of GitHub"""
 from flask import Flask
 app = Flask(__name__)
 
