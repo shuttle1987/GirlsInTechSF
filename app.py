@@ -5,6 +5,6 @@ app = Flask(__name__)
 def index():
     return "Please create an endpoint with your name as the URL"
 
-@app.route('names/yasmine'): 
+@app.route('names/yasmine')
     def yasmine(): 
         return "I am yasmine"
