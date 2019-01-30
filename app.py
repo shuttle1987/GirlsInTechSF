@@ -1,3 +1,5 @@
+"""This is a an example of a Flask app"""
+
 from flask import Flask
 app = Flask(__name__)
 
