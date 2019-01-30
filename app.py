@@ -8,4 +8,4 @@ def index():
 
 @app.route('/names/ed')
 def ed():
-    return "I'm Ed"
+    return "I'm Senay yakut"
