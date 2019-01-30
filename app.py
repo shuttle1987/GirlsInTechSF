@@ -12,3 +12,7 @@ def ed():
 @app.route('/name/kaye')
 def kaye():
     return "Hi, this is Kaye"
+
+@app.route('/gitbranchexample')
+def branchexample():
+    return "This was done on a git branch"
