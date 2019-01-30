@@ -30,6 +30,10 @@ def meghana():
 def rajasree():
     return "I'm Rajasree"
 
+@app.route('/names/Xoch')
+def ed():
+    return "Xoch"
+  
 @app.route('/gitbranchexample')
 def branch_example():
     return "This was done on a git branch"
