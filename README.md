@@ -1,6 +1,5 @@
 # GirlsInTechSF
-Repo for demonstration of GitHub features
-
+Repo for demonstration of GitHub features!
 
 ## To install
 
