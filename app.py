@@ -1,4 +1,5 @@
-##########################
+"""This is an example flask app
+designed to show some features of GitHub"""
 from flask import Flask
 app = Flask(__name__)
 
@@ -18,21 +19,14 @@ def sujatha():
 @app.route('/names/ed')
 def ed():
     return "I'm Ed"
-<<<<<<< HEAD
-
-<<<<<<< HEAD
 @app.route('/names/yasmine')
 def yasmine():
 	return "I'm not ed. I'm Yasmine. :)" 
 
-=======
 @app.route('/names/Vivian')
 def vivian():
     return "I'm Vivian"
-    
->>>>>>> 04459f97653c9974a382b74ca367ba2fd43843d7
-=======
-  
+      
 @app.route('/names/annie')
 def annie():
     return "Annie"
@@ -45,8 +39,6 @@ def irene():
 @app.route('/names/meghana')
 def meghana():
     return "I'm Meghana"
-
-
 
 @app.route('/names/rajasree')
 def rajasree():
@@ -64,4 +56,3 @@ def branch_example():
 @app.route('/names/Vivian')
 def vivian():
     return "I'm Vivian"
->>>>>>> bddf8fa9bb932cf09f4289e64aa9be5c20827a9d
