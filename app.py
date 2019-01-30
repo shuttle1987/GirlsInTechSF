@@ -13,6 +13,7 @@ def sujatha():
 
 @app.route('/names/ed')
 def ed():
+    return "I'm Senay Yakut. I am originally from Istanbul/Turkey. I live in SF and i like here a lot. I am learning git today. It is so much fun "
     return "I'm Ed"
 
 
