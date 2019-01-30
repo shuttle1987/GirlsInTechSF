@@ -9,3 +9,8 @@ def index():
 @app.route('/names/ed')
 def ed():
     return "I'm Ed"
+
+
+@app.route('/names/Xoch')
+def ed():
+    return "another endpoint as Xoch"
