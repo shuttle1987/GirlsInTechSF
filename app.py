@@ -17,6 +17,17 @@ def ed():
 def annie():
     return "Annie"
 
+
+
+@app.route('/names/rajasree')
+def rajasree():
+    return "I'm Rajasree"
+
+@app.route('/gitbranchexample')
+def branch_example():
+    return "This was done on a git branch"
+
+
 @app.route('/names/Vivian')
 def vivian():
     return "I'm Vivian"
