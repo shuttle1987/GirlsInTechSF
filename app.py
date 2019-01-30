@@ -5,6 +5,10 @@ app = Flask(__name__)
 def index():
     return "Please create an endpoint with your name as the URL"
 
+@app.route('/names/ed')
+def ed():
+    return "I'm Ed"
+
 @app.route('/names/annie')
 def annie():
     return "Annie"
