@@ -7,4 +7,4 @@ def index():
 
 @app.route('/name/mika')
 def mika():
-    return "I'm Mika"
+    return "I'm Mika!"
