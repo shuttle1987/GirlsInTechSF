@@ -1,11 +1,17 @@
 """This is an example flask app
 designed to show some features of GitHub"""
+
 from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
 def index():
     return "Please create an endpoint with your name as the URL"
+
+
+@app.route('/names/mika')
+def mika():
+    return "I'm Mika!"
 
 @app.route('/names/Sujatha/')
 def sujatha():
@@ -60,3 +66,4 @@ def vivian():
 @app.route('/names/Senay')
 def Senay():
     return "I'm Senay. I am originally from Istanbul/Turkey. I live in SF and i like here a lot. I am learning git today. It is so much fun "
+
