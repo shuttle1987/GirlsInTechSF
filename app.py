@@ -34,6 +34,10 @@ def mika():
 def sujatha():
     return "Sujatha is working on ToySharing project"
 
+@app.route('names/olivia')
+def olivia()
+    return "I'm Olivia"
+
 @app.route('/names/Sujatha/')
 def sujatha():
     return "Sujatha is working on ToySharing project"
