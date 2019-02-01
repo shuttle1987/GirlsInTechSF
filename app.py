@@ -8,6 +8,16 @@ app = Flask(__name__)
 def index():
     return "Please create an endpoint with your name as the URL"
 
+
+
+@app.route('/name/kaye')
+def kaye():
+    return "Hi, this is Kaye"
+
+@app.route('/gitbranchexample')
+def branchexample():
+    return "This was done on a git branch"
+
 @app.route('/names/nataly')
 def nataly():
 return "I'm Nataly"
